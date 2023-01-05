@@ -55,4 +55,26 @@ body {
   color: #FF5A5F;
 }
 
-/* Navbar ends here */
+/* Navbar ends here, Hero starts here */
+
+.middle-section {
+  padding: 30px 60px 30px 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.airbnb-photo {
+  width: 100%;
+  padding: 0px 40px 10px 40px;
+}
+
+.hero-title {
+  margin: 0px 0px 16px 0px;
+  font-size: 2.2rem;
+}
+
+.hero-paragraph {
+  margin: 0px;
+}
+
+/* Hero ends here */
