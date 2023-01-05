@@ -5,7 +5,7 @@ export function Navbar() {
     return (
         <nav className="navbar">
             <FontAwesomeIcon icon={faAirbnb} className="airbnb-icon"></FontAwesomeIcon>
-            <h1 className="airbnb-title">Airbnb</h1>
+            <h1 className="airbnb-title">airbnb</h1>
         </nav>
     )
 }
