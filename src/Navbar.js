@@ -3,9 +3,9 @@ import {faAirbnb} from "@fortawesome/free-brands-svg-icons"
 
 export function Navbar() {
     return (
-        <nav>
-            <h1>
-                <FontAwesomeIcon icon={faAirbnb}></FontAwesomeIcon>Airbnb
+        <nav className="navbar">
+            <h1 className="airbnb-title">
+                <FontAwesomeIcon icon={faAirbnb} className="airbnb-icon"></FontAwesomeIcon>Airbnb
             </h1>
         </nav>
     )
