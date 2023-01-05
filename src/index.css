@@ -28,6 +28,8 @@ body {
   background-color: #FFFFFF;
   width: 55vw;
   height: 85vh;
+  max-width: 800px;
+  max-height: 1200px;
   border-radius: 10px;
   margin: 40px;
 }
