@@ -3,7 +3,7 @@ import { Hero } from "./Hero";
 
 export function App() {
     return (
-        <div>
+        <div className="all-content">
             <Navbar />
             <Hero />
         </div>
