@@ -1,6 +1,6 @@
-#Airbnb Experiences Project
+# Airbnb Experiences Project
 
-#In progress will update once finished
+## In progress will update once finished
 
 ## Getting Started with Create React App
 
