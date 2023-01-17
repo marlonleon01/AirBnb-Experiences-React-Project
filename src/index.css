@@ -27,11 +27,10 @@ body {
 .all-content {
   background-color: #FFFFFF;
   width: 55vw;
-  height: 85vh;
   max-width: 800px;
   max-height: 1200px;
   border-radius: 10px;
-  margin: 40px;
+  margin: 40px 0;
 }
 
 /* Navbar starts here */
@@ -58,7 +57,7 @@ body {
 /* Navbar ends here, Hero starts here */
 
 .middle-section {
-  padding: 30px 60px 30px 60px;
+  padding: 30px 60px;
   display: flex;
   flex-direction: column;
 }
@@ -78,3 +77,32 @@ body {
 }
 
 /* Hero ends here */
+
+
+@media screen and (max-width: 550px) {
+  .all-content {
+    width: 80vw;
+  }
+
+  .middle-section {
+    padding: 10px 40px;
+  }
+
+  .airbnb-photo {
+    padding: 10px 0 0 0;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-paragraph {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1024px) {
+  .all-content {
+    width: 80vw;
+  }
+}
