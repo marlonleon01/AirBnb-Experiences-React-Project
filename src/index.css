@@ -33,6 +33,10 @@ body {
   margin: 40px 0;
 }
 
+.gray {
+  color: #918E9B;
+}
+
 /* Navbar starts here */
 
 .navbar {
@@ -76,8 +80,28 @@ body {
   margin: 0px;
 }
 
-/* Hero ends here */
+/* Hero ends here, Card starts here */
 
+.card {
+  width: 11rem;
+  font-size: 1rem;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  height: 1rem;
+}
+
+/* Card Ends here */
 
 @media screen and (max-width: 550px) {
   .all-content {
@@ -98,6 +122,15 @@ body {
 
   .hero-paragraph {
     font-size: 0.9rem;
+  }
+
+  .card {
+    width: 11rem;
+    font-size: 12px;
+  }
+
+  .card-star {
+    height: 12px;
   }
 }
 
