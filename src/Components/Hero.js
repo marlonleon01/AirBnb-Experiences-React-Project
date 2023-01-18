@@ -1,4 +1,4 @@
-import airbnbPhoto from "./imgs/Airbnb hero photo.png"
+import airbnbPhoto from "../imgs/Airbnb hero photo.png"
 
 export function Hero() {
     return (
