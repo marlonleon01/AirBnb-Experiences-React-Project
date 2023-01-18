@@ -37,6 +37,10 @@ body {
   color: #918E9B;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /* Navbar starts here */
 
 .navbar {
