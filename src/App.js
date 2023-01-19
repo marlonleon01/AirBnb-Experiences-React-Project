@@ -4,22 +4,26 @@ import { Card } from "./Components/Card"
 import data from "./data"
 
 export function App() {
-    const info = data.map(data => {
-        return <Card 
-                img={data.coverImg}
-                rating={data.stats.rating}
-                reviewCount={data.stats.reviewCount}
-                location={data.location}
-                title={data.title}
-                price={data.price}
+    const cards = data.map(item => {
+        return (
+            <Card 
+                img={item.coverImg}
+                rating={item.stats.rating}
+                reviewCount={item.stats.reviewCount}
+                location={item.location}
+                title={item.title}
+                price={item.price}
                 />
+        ) 
     })
 
     return (
         <div className="all-content">
             <Navbar />
             <Hero />
-            {info}
+            <section className="cards-list">
+                {cards}
+            </section>
         </div>
     )
 }
