@@ -33,6 +33,10 @@ body {
   margin: 40px 0;
 }
 
+section {
+  padding: 20px;
+}
+
 .gray {
   color: #918E9B;
 }
@@ -81,7 +85,7 @@ body {
 }
 
 .hero-paragraph {
-  margin: 0px;
+  margin: 0 0 10px 0;
 }
 
 /* Hero ends here, Card starts here */
@@ -89,8 +93,8 @@ body {
 .card {
   width: 11rem;
   font-size: 1rem;
-  display: flex;
   flex: 0 0 auto;
+  display: flex;
   flex-direction: column;
 }
 
@@ -104,6 +108,7 @@ body {
 .card-img {
   width: 100%;
   border-radius: 9px;
+  margin-bottom: 9px;
 }
 
 .card-info {
@@ -121,7 +126,7 @@ body {
 }
 
 .card-price {
-  margin-top: auto;
+  margin-top: 10px;
 }
 
 /* Card Ends here */
