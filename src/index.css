@@ -89,6 +89,16 @@ body {
 .card {
   width: 11rem;
   font-size: 1rem;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
 }
 
 .card-img {
@@ -103,6 +113,15 @@ body {
 
 .card-star {
   height: 1rem;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-price {
+  margin-top: auto;
 }
 
 /* Card Ends here */
