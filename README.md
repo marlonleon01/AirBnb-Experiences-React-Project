@@ -1,5 +1,23 @@
 # Airbnb Experiences Project
 
+## Description
+-I created this site as a way to practice building dynamic sites with React   
+-It help me learn the different syntax and how to make code composable.  
+-It allowed me to learn how to import data from an array in javascript and use it to display information to user dynamically
+
+## Required Files
+-Git  
+-Node.js  
+-Npm (which should be included with your node installation)  
+-Code editor (Visual Studio Code recommended)  
+
+## Installation
+-Open terminal  
+-Clone the repo with: $ git clone {url}  
+-cd into the folder  
+-type: $ npm install  
+-then follow from "Getting Started with Create React App"  
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
