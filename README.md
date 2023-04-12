@@ -1,7 +1,7 @@
 # Airbnb Experiences Project
 
 ## Description
--I created this site as a way to practice building dynamic sites with React   
+-I created this site as a way to practice building dynamic sites with React as a part of the scrimba react basics course   
 -It help me learn the different syntax and how to make code composable.  
 -It allowed me to learn how to import data from an array in javascript and use it to display information to user dynamically
 
@@ -15,8 +15,7 @@
 -Open terminal  
 -Clone the repo with: $ git clone {url}  
 -cd into the folder  
--type: $ npm install  
--then follow from "Getting Started with Create React App"  
+-type: $ npm install     
 
 ## Getting Started with Create React App
 
